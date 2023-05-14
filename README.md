@@ -4,7 +4,9 @@
 *****
 
 ### Iniciando o airflow
+
 michel@mss:~/airflow-docker$ docker-compose up airflow-init
+
 WARNING: The AIRFLOW_UID variable is not set. Defaulting to a blank string.
 Creating network "airflow-docker_default" with the default driver
 Creating volume "airflow-docker_postgres-db-volume" with default driver
@@ -35,7 +37,9 @@ e43bffb29bfd: Pull complete
 a8fb6ae3ba1b: Pull complete
 
 ### Subindo o airflow no docker
+
 michel@mss:~/airflow-docker$ docker-compose up 
+
 WARNING: The AIRFLOW_UID variable is not set. Defaulting to a blank string.
 airflow-docker_postgres_1 is up-to-date
 airflow-docker_redis_1 is up-to-date
@@ -90,7 +94,9 @@ airflow-scheduler_1  | [2023-05-14 23:22:18,778] {settings.py:58} INFO - Configu
 
 
 ### Finalizando o container docker-airflow
+
 michel@mss:~/airflow-docker$ docker-compose down
+
 WARNING: The AIRFLOW_UID variable is not set. Defaulting to a blank string.
 Stopping airflow-docker_airflow-webserver_1 ... done
 Stopping airflow-docker_airflow-scheduler_1 ... done
