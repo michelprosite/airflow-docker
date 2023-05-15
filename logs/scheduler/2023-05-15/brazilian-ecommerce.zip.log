@@ -1,0 +1,95 @@
+[2023-05-15T14:39:03.721+0000] {processor.py:156} INFO - Started process (PID=36778) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:39:03.722+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:39:03.722+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:39:03.722+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:39:03.724+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:39:03.750+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.035 seconds
+[2023-05-15T14:39:34.265+0000] {processor.py:156} INFO - Started process (PID=36987) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:39:34.266+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:39:34.268+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:39:34.268+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:39:34.270+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:39:34.296+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.046 seconds
+[2023-05-15T14:40:04.914+0000] {processor.py:156} INFO - Started process (PID=37203) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:40:04.915+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:40:04.916+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:40:04.916+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:40:04.917+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:40:04.935+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.028 seconds
+[2023-05-15T14:40:35.934+0000] {processor.py:156} INFO - Started process (PID=37412) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:40:35.939+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:40:35.943+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:40:35.943+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:40:35.949+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:40:35.999+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.083 seconds
+[2023-05-15T14:41:06.973+0000] {processor.py:156} INFO - Started process (PID=37629) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:41:06.974+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:41:06.975+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:41:06.975+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:41:06.977+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:41:07.003+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.034 seconds
+[2023-05-15T14:41:37.091+0000] {processor.py:156} INFO - Started process (PID=37837) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:41:37.092+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:41:37.094+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:41:37.094+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:41:37.096+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:41:37.128+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.046 seconds
+[2023-05-15T14:42:08.198+0000] {processor.py:156} INFO - Started process (PID=38054) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:42:08.200+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:42:08.201+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:42:08.201+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:42:08.203+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:42:08.232+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.043 seconds
+[2023-05-15T14:42:38.331+0000] {processor.py:156} INFO - Started process (PID=38271) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:42:38.333+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:42:38.334+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:42:38.333+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:42:38.335+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:42:38.359+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.033 seconds
+[2023-05-15T14:43:08.713+0000] {processor.py:156} INFO - Started process (PID=38478) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:43:08.714+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:43:08.714+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:43:08.714+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:43:08.715+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:43:08.730+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.023 seconds
+[2023-05-15T14:43:39.444+0000] {processor.py:156} INFO - Started process (PID=38694) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:43:39.445+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:43:39.446+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:43:39.445+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:43:39.447+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:43:39.469+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.029 seconds
+[2023-05-15T14:44:10.186+0000] {processor.py:156} INFO - Started process (PID=38910) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:44:10.187+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:44:10.188+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:44:10.188+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:44:10.189+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:44:10.202+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.019 seconds
+[2023-05-15T14:54:04.459+0000] {processor.py:156} INFO - Started process (PID=42931) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:54:04.460+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:54:04.461+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:54:04.460+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:54:04.461+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:54:04.475+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.020 seconds
+[2023-05-15T14:54:34.561+0000] {processor.py:156} INFO - Started process (PID=43145) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:54:34.562+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:54:34.563+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:54:34.562+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:54:34.570+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:54:34.600+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.043 seconds
+[2023-05-15T14:55:05.163+0000] {processor.py:156} INFO - Started process (PID=43356) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:55:05.164+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:55:05.165+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:55:05.165+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:55:05.166+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:55:05.184+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.025 seconds
+[2023-05-15T14:55:36.206+0000] {processor.py:156} INFO - Started process (PID=43573) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:55:36.207+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:55:36.208+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:55:36.208+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:55:36.209+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:55:36.225+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.023 seconds
+[2023-05-15T14:56:06.570+0000] {processor.py:156} INFO - Started process (PID=43785) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:56:06.572+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:56:06.574+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:56:06.574+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:56:06.577+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:56:06.612+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.056 seconds
+[2023-05-15T14:56:36.649+0000] {processor.py:156} INFO - Started process (PID=44002) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:56:36.649+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:56:36.650+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:56:36.650+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:56:36.651+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:56:36.664+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.018 seconds
+[2023-05-15T14:57:06.931+0000] {processor.py:156} INFO - Started process (PID=44219) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:57:06.933+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:57:06.933+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:57:06.933+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:57:06.934+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:57:06.946+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.018 seconds
+[2023-05-15T14:57:37.450+0000] {processor.py:156} INFO - Started process (PID=44428) to work on /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:57:37.451+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/brazilian-ecommerce.zip for tasks to queue
+[2023-05-15T14:57:37.452+0000] {logging_mixin.py:117} INFO - [2023-05-15T14:57:37.452+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:57:37.453+0000] {processor.py:770} WARNING - No viable dags retrieved from /opt/airflow/dags/brazilian-ecommerce.zip
+[2023-05-15T14:57:37.479+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/brazilian-ecommerce.zip took 0.034 seconds
