@@ -1,0 +1,11 @@
+# Iniciar o Airflow
+$ docker-compose up airflow-init
+
+# Subir o container
+$ docker-compose up 
+
+# Encerrar o container
+$ docker-compose down
+
+# Subir o banco de dados postgres o qual já está instalado (Importante declarar as portas (ports:) so postgres no docker-compose.yaml antes de realizar o comando.)
+$ docker-compose up -d --no-deps --buil postgres
