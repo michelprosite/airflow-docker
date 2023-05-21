@@ -1,0 +1,118 @@
+[2023-05-21T18:42:52.532+0000] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:42:52.542+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:42:52.547+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:42:52.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:42:52.566+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:42:52.565+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:42:52.581+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:42:52.635+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.107 seconds
+[2023-05-21T18:43:22.982+0000] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:43:22.984+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:43:22.986+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:43:22.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:43:23.005+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:43:23.003+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:43:23.007+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:43:23.067+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.095 seconds
+[2023-05-21T18:43:53.512+0000] {processor.py:153} INFO - Started process (PID=99) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:43:53.513+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:43:53.515+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:43:53.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:43:53.521+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:43:53.520+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:43:53.522+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:43:53.548+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.045 seconds
+[2023-05-21T18:44:06.641+0000] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:44:06.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:44:06.643+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:44:06.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:44:06.653+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:44:06.652+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:44:06.654+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:44:06.702+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.065 seconds
+[2023-05-21T18:44:36.997+0000] {processor.py:153} INFO - Started process (PID=149) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:44:36.998+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:44:36.999+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:44:36.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:44:37.005+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:44:37.004+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:44:37.006+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:44:37.028+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.034 seconds
+[2023-05-21T18:45:07.303+0000] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:45:07.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:45:07.305+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:45:07.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:45:07.314+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:45:07.313+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:45:07.315+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:45:07.342+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.046 seconds
+[2023-05-21T18:45:37.568+0000] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:45:37.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:45:37.570+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:45:37.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:45:37.576+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:45:37.575+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:45:37.576+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:45:37.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.034 seconds
+[2023-05-21T18:46:07.839+0000] {processor.py:153} INFO - Started process (PID=242) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:46:07.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:46:07.841+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:46:07.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:46:07.849+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:46:07.848+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/primeiragag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/primeiragag.py", line 7, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'desciption'
+[2023-05-21T18:46:07.850+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:46:07.878+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.049 seconds
+[2023-05-21T18:46:08.860+0000] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:46:08.861+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiragag.py for tasks to queue
+[2023-05-21T18:46:08.862+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:46:08.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:46:08.863+0000] {logging_mixin.py:137} INFO - [2023-05-21T18:46:08.863+0000] {dagbag.py:320} INFO - File /opt/airflow/dags/primeiragag.py assumed to contain no DAGs. Skipping.
+[2023-05-21T18:46:08.864+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/primeiragag.py
+[2023-05-21T18:46:08.885+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiragag.py took 0.029 seconds
