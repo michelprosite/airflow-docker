@@ -5042,3 +5042,31 @@ TypeError: unsupported operand type(s) for >>: 'list' and 'list'
 [2023-05-21T23:57:34.379+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:57:34.378+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-05-21T23:57:34.489+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:57:34.489+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
 [2023-05-21T23:57:34.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 1.740 seconds
+[2023-05-21T23:58:05.182+0000] {processor.py:153} INFO - Started process (PID=20927) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:58:05.187+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-21T23:58:05.189+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:05.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:58:05.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:58:05.692+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:05.691+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:58:05.739+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:05.739+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:58:05.772+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.604 seconds
+[2023-05-21T23:58:36.508+0000] {processor.py:153} INFO - Started process (PID=20958) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:58:36.511+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-21T23:58:36.514+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:36.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:58:37.759+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:58:37.889+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:37.889+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:58:38.026+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:38.026+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:58:38.105+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 1.607 seconds
+[2023-05-21T23:59:08.443+0000] {processor.py:153} INFO - Started process (PID=20989) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:59:08.445+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-21T23:59:08.448+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:08.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:59:09.169+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:59:09.208+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.207+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:59:09.267+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.267+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:59:09.308+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.871 seconds
+[2023-05-21T23:59:40.211+0000] {processor.py:153} INFO - Started process (PID=21030) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:59:40.212+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-21T23:59:40.214+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:59:40.586+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-21T23:59:40.626+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.625+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:59:40.671+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.671+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:59:40.702+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.495 seconds

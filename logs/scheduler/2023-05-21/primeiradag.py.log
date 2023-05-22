@@ -4097,3 +4097,31 @@
 [2023-05-21T23:57:34.394+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:57:34.394+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-05-21T23:57:34.463+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:57:34.463+0000] {dag.py:3441} INFO - Setting next_dagrun for primeiradag to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
 [2023-05-21T23:57:34.531+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiradag.py took 1.710 seconds
+[2023-05-21T23:58:05.155+0000] {processor.py:153} INFO - Started process (PID=20926) to work on /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:58:05.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiradag.py for tasks to queue
+[2023-05-21T23:58:05.164+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:05.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:58:05.660+0000] {processor.py:753} INFO - DAG(s) dict_keys(['primeiradag']) retrieved from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:58:05.692+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:05.691+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:58:05.739+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:05.739+0000] {dag.py:3441} INFO - Setting next_dagrun for primeiradag to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:58:05.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiradag.py took 0.638 seconds
+[2023-05-21T23:58:36.489+0000] {processor.py:153} INFO - Started process (PID=20957) to work on /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:58:36.497+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiradag.py for tasks to queue
+[2023-05-21T23:58:36.503+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:36.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:58:37.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['primeiradag']) retrieved from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:58:37.888+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:37.887+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:58:38.045+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:38.044+0000] {dag.py:3441} INFO - Setting next_dagrun for primeiradag to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:58:38.148+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiradag.py took 1.666 seconds
+[2023-05-21T23:59:08.428+0000] {processor.py:153} INFO - Started process (PID=20988) to work on /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:59:08.435+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiradag.py for tasks to queue
+[2023-05-21T23:59:08.436+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:08.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:59:09.169+0000] {processor.py:753} INFO - DAG(s) dict_keys(['primeiradag']) retrieved from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:59:09.208+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.207+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:59:09.264+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.264+0000] {dag.py:3441} INFO - Setting next_dagrun for primeiradag to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:59:09.308+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiradag.py took 0.891 seconds
+[2023-05-21T23:59:40.046+0000] {processor.py:153} INFO - Started process (PID=21026) to work on /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:59:40.047+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/primeiradag.py for tasks to queue
+[2023-05-21T23:59:40.049+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:59:40.378+0000] {processor.py:753} INFO - DAG(s) dict_keys(['primeiradag']) retrieved from /opt/airflow/dags/primeiradag.py
+[2023-05-21T23:59:40.413+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.412+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:59:40.460+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.460+0000] {dag.py:3441} INFO - Setting next_dagrun for primeiradag to 2023-05-21T22:30:00+00:00, run_after=2023-05-21T23:30:00+00:00
+[2023-05-21T23:59:40.491+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/primeiradag.py took 0.450 seconds

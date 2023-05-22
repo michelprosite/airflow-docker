@@ -352,3 +352,31 @@ NameError: name 'tsk_group' is not defined
 [2023-05-21T23:57:37.667+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:57:37.666+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-05-21T23:57:37.714+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:57:37.714+0000] {dag.py:3441} INFO - Setting next_dagrun for daggroup to 2023-05-21T23:30:00+00:00, run_after=2023-05-22T00:30:00+00:00
 [2023-05-21T23:57:37.751+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/daggroup.py took 0.149 seconds
+[2023-05-21T23:58:07.819+0000] {processor.py:153} INFO - Started process (PID=20930) to work on /opt/airflow/dags/daggroup.py
+[2023-05-21T23:58:07.820+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/daggroup.py for tasks to queue
+[2023-05-21T23:58:07.821+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:07.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:58:07.847+0000] {processor.py:753} INFO - DAG(s) dict_keys(['daggroup']) retrieved from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:58:07.882+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:07.882+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:58:07.935+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:07.935+0000] {dag.py:3441} INFO - Setting next_dagrun for daggroup to 2023-05-21T23:30:00+00:00, run_after=2023-05-22T00:30:00+00:00
+[2023-05-21T23:58:07.959+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/daggroup.py took 0.145 seconds
+[2023-05-21T23:58:38.205+0000] {processor.py:153} INFO - Started process (PID=20961) to work on /opt/airflow/dags/daggroup.py
+[2023-05-21T23:58:38.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/daggroup.py for tasks to queue
+[2023-05-21T23:58:38.210+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:38.210+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:58:38.264+0000] {processor.py:753} INFO - DAG(s) dict_keys(['daggroup']) retrieved from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:58:38.333+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:38.332+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:58:38.415+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:58:38.414+0000] {dag.py:3441} INFO - Setting next_dagrun for daggroup to 2023-05-21T23:30:00+00:00, run_after=2023-05-22T00:30:00+00:00
+[2023-05-21T23:58:38.473+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/daggroup.py took 0.284 seconds
+[2023-05-21T23:59:09.345+0000] {processor.py:153} INFO - Started process (PID=20992) to work on /opt/airflow/dags/daggroup.py
+[2023-05-21T23:59:09.346+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/daggroup.py for tasks to queue
+[2023-05-21T23:59:09.346+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:59:09.371+0000] {processor.py:753} INFO - DAG(s) dict_keys(['daggroup']) retrieved from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:59:09.409+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.409+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:59:09.473+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:09.472+0000] {dag.py:3441} INFO - Setting next_dagrun for daggroup to 2023-05-21T23:30:00+00:00, run_after=2023-05-22T00:30:00+00:00
+[2023-05-21T23:59:09.508+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/daggroup.py took 0.167 seconds
+[2023-05-21T23:59:40.014+0000] {processor.py:153} INFO - Started process (PID=21025) to work on /opt/airflow/dags/daggroup.py
+[2023-05-21T23:59:40.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/daggroup.py for tasks to queue
+[2023-05-21T23:59:40.017+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:59:40.058+0000] {processor.py:753} INFO - DAG(s) dict_keys(['daggroup']) retrieved from /opt/airflow/dags/daggroup.py
+[2023-05-21T23:59:40.099+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.099+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-21T23:59:40.146+0000] {logging_mixin.py:137} INFO - [2023-05-21T23:59:40.146+0000] {dag.py:3441} INFO - Setting next_dagrun for daggroup to 2023-05-21T23:30:00+00:00, run_after=2023-05-22T00:30:00+00:00
+[2023-05-21T23:59:40.175+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/daggroup.py took 0.171 seconds
