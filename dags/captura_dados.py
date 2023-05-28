@@ -3,6 +3,8 @@ from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 import os
+import pandas as pd
+from kaggle.api import KaggleApi
 
 # Funções
 diretorio = "/opt/airflow/data/transient"
@@ -17,15 +19,31 @@ def verifica_arquivos(diretorio):
         return True
 
 def downloads_folders(ti):
-    bash_command_download = (
-        "r= !pwd; "
-        "PATH_FOLDER= $r[0] + '/transient'; "
-        "os.environ['PATH_FOLDER']= PATH_FOLDER; "
-        "cd $PATH_FOLDER && kaggle datasets download -d olistbr/brazilian-ecommerce; "
-        "cd $PATH_FOLDER && unzip brazilian-ecommerce.zip; "
-        "cd $PATH_FOLDER && rm -r brazilian-ecommerce.zip"
-    )
-    return bash_command_download
+    # Defina o caminho para o arquivo da chave de API
+    api_key_path = '/home/michel/Documentos/opt/kaggle_olist/kaggle.json'
+
+    # Altere as permissões do arquivo da chave de API
+    os.chmod(api_key_path, 0o600)
+
+    # Configurar a biblioteca Kaggle
+    api = KaggleApi()
+    api.authenticate()
+
+    # Definir o caminho da pasta
+    current_dir = os.getcwd()
+    path_folder = os.path.join(current_dir, 'transient')
+
+    # Criar a pasta se ela não existir
+    os.makedirs(path_folder, exist_ok=True)
+
+    # Definir o caminho completo do arquivo
+    file_path = os.path.join(path_folder, 'brazilian-olist-ecommerce.zip')
+
+    # Fazer o download do conjunto de dados
+    api.dataset_download_files('michelsouzasantana/brazilian-olist-ecommerce', path=path_folder, unzip=True)
+
+    # Remover o arquivo zip
+    #os.remove(file_path)
 
 def e_valida(ti):
     validador = ti.xcom_pull(task_ids='verifica_arquivos_task')
