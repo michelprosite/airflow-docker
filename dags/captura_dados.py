@@ -4,7 +4,7 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 import os
 import pandas as pd
-from kaggle.api import KaggleApi
+from kaggle.api.kaggle_api_extended import KaggleApi
 
 # Funções
 diretorio = "/opt/airflow/data/transient"
@@ -20,7 +20,7 @@ def verifica_arquivos(diretorio):
 
 def downloads_folders(ti):
     # Defina o caminho para o arquivo da chave de API
-    api_key_path = '/home/michel/Documentos/opt/kaggle_olist/kaggle.json'
+    api_key_path = '/home/michel/airflow-docker/.kaggle/kaggle.json'
 
     # Altere as permissões do arquivo da chave de API
     os.chmod(api_key_path, 0o600)
@@ -31,7 +31,7 @@ def downloads_folders(ti):
 
     # Definir o caminho da pasta
     current_dir = os.getcwd()
-    path_folder = os.path.join(current_dir, 'transient')
+    path_folder = "/home/michel/airflow-docker/data/transient"
 
     # Criar a pasta se ela não existir
     os.makedirs(path_folder, exist_ok=True)

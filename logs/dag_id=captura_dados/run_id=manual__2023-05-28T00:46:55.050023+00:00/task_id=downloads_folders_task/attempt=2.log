@@ -1,0 +1,33 @@
+[2023-05-28T01:48:59.501+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.downloads_folders_task manual__2023-05-28T00:46:55.050023+00:00 [queued]>
+[2023-05-28T01:48:59.545+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.downloads_folders_task manual__2023-05-28T00:46:55.050023+00:00 [queued]>
+[2023-05-28T01:48:59.545+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28T01:48:59.546+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 3
+[2023-05-28T01:48:59.546+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28T01:48:59.583+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): downloads_folders_task> on 2023-05-28 00:46:55.050023+00:00
+[2023-05-28T01:48:59.592+0000] {standard_task_runner.py:55} INFO - Started process 419 to run task
+[2023-05-28T01:48:59.599+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'captura_dados', 'downloads_folders_task', 'manual__2023-05-28T00:46:55.050023+00:00', '--job-id', '365', '--raw', '--subdir', 'DAGS_FOLDER/captura_dados.py', '--cfg-path', '/tmp/tmp702gbzpk']
+[2023-05-28T01:48:59.602+0000] {standard_task_runner.py:83} INFO - Job 365: Subtask downloads_folders_task
+[2023-05-28T01:48:59.711+0000] {task_command.py:388} INFO - Running <TaskInstance: captura_dados.downloads_folders_task manual__2023-05-28T00:46:55.050023+00:00 [running]> on host 04212fe07565
+[2023-05-28T01:48:59.874+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=captura_dados
+AIRFLOW_CTX_TASK_ID=downloads_folders_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-28T00:46:55.050023+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-28T00:46:55.050023+00:00
+[2023-05-28T01:48:59.875+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/captura_dados.py", line 26, in downloads_folders
+    os.chmod(api_key_path, 0o600)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/michel/airflow-docker/.kaggle/kaggle.json'
+[2023-05-28T01:48:59.926+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=captura_dados, task_id=downloads_folders_task, execution_date=20230528T004655, start_date=20230528T014859, end_date=20230528T014859
+[2023-05-28T01:48:59.951+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 365 for task downloads_folders_task ([Errno 2] No such file or directory: '/home/michel/airflow-docker/.kaggle/kaggle.json'; 419)
+[2023-05-28T01:48:59.969+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-28T01:49:00.005+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
