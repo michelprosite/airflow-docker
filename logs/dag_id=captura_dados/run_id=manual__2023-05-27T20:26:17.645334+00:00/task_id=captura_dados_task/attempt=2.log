@@ -1,0 +1,40 @@
+[2023-05-27T20:26:29.917+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados_task manual__2023-05-27T20:26:17.645334+00:00 [queued]>
+[2023-05-27T20:26:29.927+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados_task manual__2023-05-27T20:26:17.645334+00:00 [queued]>
+[2023-05-27T20:26:29.927+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T20:26:29.927+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-05-27T20:26:29.927+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T20:26:29.945+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): captura_dados_task> on 2023-05-27 20:26:17.645334+00:00
+[2023-05-27T20:26:29.952+0000] {standard_task_runner.py:55} INFO - Started process 698 to run task
+[2023-05-27T20:26:29.955+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'captura_dados', 'captura_dados_task', 'manual__2023-05-27T20:26:17.645334+00:00', '--job-id', '279', '--raw', '--subdir', 'DAGS_FOLDER/captura_dados.py', '--cfg-path', '/tmp/tmpz1mulrmm']
+[2023-05-27T20:26:29.957+0000] {standard_task_runner.py:83} INFO - Job 279: Subtask captura_dados_task
+[2023-05-27T20:26:30.023+0000] {task_command.py:388} INFO - Running <TaskInstance: captura_dados.captura_dados_task manual__2023-05-27T20:26:17.645334+00:00 [running]> on host c7c762ba6b48
+[2023-05-27T20:26:30.149+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=captura_dados
+AIRFLOW_CTX_TASK_ID=captura_dados_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T20:26:17.645334+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T20:26:17.645334+00:00
+[2023-05-27T20:26:30.151+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-27T20:26:30.151+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "\n        r = !pwd;\n        PATH_FOLDER = r[0] + '/transient';\n        os.environ['PATH_FOLDER'] = PATH_FOLDER;\n        !cd $PATH_FOLDER && kaggle datasets download -d olistbr/brazilian-ecommerce;\n        !cd $PATH_FOLDER && unzip brazilian-ecommerce.zip;\n        !cd $PATH_FOLDER && rm -r brazilian-ecommerce.zip;\n        "]
+[2023-05-27T20:26:30.165+0000] {subprocess.py:86} INFO - Output:
+[2023-05-27T20:26:30.167+0000] {subprocess.py:93} INFO - /bin/bash: line 2: r: command not found
+[2023-05-27T20:26:30.167+0000] {subprocess.py:93} INFO - /bin/bash: line 3: PATH_FOLDER: command not found
+[2023-05-27T20:26:30.168+0000] {subprocess.py:93} INFO - /bin/bash: line 4: os.environ[PATH_FOLDER]: command not found
+[2023-05-27T20:26:30.168+0000] {subprocess.py:93} INFO - /bin/bash: line 5: !cd: command not found
+[2023-05-27T20:26:30.169+0000] {subprocess.py:93} INFO - /bin/bash: line 6: !cd: command not found
+[2023-05-27T20:26:30.169+0000] {subprocess.py:93} INFO - /bin/bash: line 7: !cd: command not found
+[2023-05-27T20:26:30.170+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-05-27T20:26:30.181+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-05-27T20:26:30.185+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=captura_dados, task_id=captura_dados_task, execution_date=20230527T202617, start_date=20230527T202629, end_date=20230527T202630
+[2023-05-27T20:26:30.198+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 279 for task captura_dados_task (Bash command failed. The command returned a non-zero exit code 127.; 698)
+[2023-05-27T20:26:30.207+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-27T20:26:30.228+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

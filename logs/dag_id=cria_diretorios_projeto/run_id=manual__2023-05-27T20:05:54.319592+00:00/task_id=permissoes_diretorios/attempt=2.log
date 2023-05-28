@@ -1,0 +1,106 @@
+[2023-05-27T20:06:12.159+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cria_diretorios_projeto.permissoes_diretorios manual__2023-05-27T20:05:54.319592+00:00 [queued]>
+[2023-05-27T20:06:12.190+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cria_diretorios_projeto.permissoes_diretorios manual__2023-05-27T20:05:54.319592+00:00 [queued]>
+[2023-05-27T20:06:12.191+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T20:06:12.191+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-05-27T20:06:12.192+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T20:06:12.253+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): permissoes_diretorios> on 2023-05-27 20:05:54.319592+00:00
+[2023-05-27T20:06:12.262+0000] {standard_task_runner.py:55} INFO - Started process 3260 to run task
+[2023-05-27T20:06:12.275+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cria_diretorios_projeto', 'permissoes_diretorios', 'manual__2023-05-27T20:05:54.319592+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/cria_diretorios_projeto.py', '--cfg-path', '/tmp/tmpzuezqb65']
+[2023-05-27T20:06:12.301+0000] {standard_task_runner.py:83} INFO - Job 269: Subtask permissoes_diretorios
+[2023-05-27T20:06:12.474+0000] {task_command.py:388} INFO - Running <TaskInstance: cria_diretorios_projeto.permissoes_diretorios manual__2023-05-27T20:05:54.319592+00:00 [running]> on host 36658c0564dd
+[2023-05-27T20:06:12.722+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cria_diretorios_projeto
+AIRFLOW_CTX_TASK_ID=permissoes_diretorios
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T20:05:54.319592+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T20:05:54.319592+00:00
+[2023-05-27T20:06:12.724+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-27T20:06:12.725+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n        export PATH_FOLDER=$(cd "$(dirname "$0")" && pwd -P)\n        cd $PATH_FOLDER/\n        chmod -R 777 *\n    ']
+[2023-05-27T20:06:12.767+0000] {subprocess.py:86} INFO - Output:
+[2023-05-27T20:06:12.802+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'bash': Operation not permitted
+[2023-05-27T20:06:12.802+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'cat': Operation not permitted
+[2023-05-27T20:06:12.802+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'chgrp': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'chmod': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'chown': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'cp': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'dash': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'date': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'dd': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'df': Operation not permitted
+[2023-05-27T20:06:12.803+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'dir': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'dmesg': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'dnsdomainname': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'domainname': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'echo': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'egrep': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'false': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'fgrep': Operation not permitted
+[2023-05-27T20:06:12.804+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'findmnt': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'grep': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'gunzip': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'gzexe': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'gzip': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'hostname': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'ln': Operation not permitted
+[2023-05-27T20:06:12.805+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'login': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'ls': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'lsblk': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'mkdir': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'mknod': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'mktemp': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'more': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'mount': Operation not permitted
+[2023-05-27T20:06:12.806+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'mountpoint': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'mv': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'nc': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'nc.openbsd': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'netcat': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'nisdomainname': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'pidof': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'pwd': Operation not permitted
+[2023-05-27T20:06:12.807+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'rbash': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'readlink': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'rm': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'rmdir': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'run-parts': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'sed': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'sh': Operation not permitted
+[2023-05-27T20:06:12.808+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'sleep': Operation not permitted
+[2023-05-27T20:06:12.809+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'stty': Operation not permitted
+[2023-05-27T20:06:12.809+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'su': Operation not permitted
+[2023-05-27T20:06:12.809+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'sync': Operation not permitted
+[2023-05-27T20:06:12.809+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'tar': Operation not permitted
+[2023-05-27T20:06:12.809+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'tempfile': Operation not permitted
+[2023-05-27T20:06:12.809+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'touch': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'true': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'umount': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'uname': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'uncompress': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'vdir': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'wdctl': Operation not permitted
+[2023-05-27T20:06:12.818+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'ypdomainname': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zcat': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zcmp': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zdiff': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zegrep': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zfgrep': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zforce': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zgrep': Operation not permitted
+[2023-05-27T20:06:12.819+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zless': Operation not permitted
+[2023-05-27T20:06:12.822+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'zmore': Operation not permitted
+[2023-05-27T20:06:12.823+0000] {subprocess.py:93} INFO - chmod: changing permissions of 'znew': Operation not permitted
+[2023-05-27T20:06:12.823+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-05-27T20:06:12.847+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-05-27T20:06:12.853+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cria_diretorios_projeto, task_id=permissoes_diretorios, execution_date=20230527T200554, start_date=20230527T200612, end_date=20230527T200612
+[2023-05-27T20:06:12.938+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 269 for task permissoes_diretorios (Bash command failed. The command returned a non-zero exit code 1.; 3260)
+[2023-05-27T20:06:12.982+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-27T20:06:13.027+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

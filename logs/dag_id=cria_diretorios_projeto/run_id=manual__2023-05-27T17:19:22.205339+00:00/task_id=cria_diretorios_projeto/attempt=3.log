@@ -1,0 +1,29 @@
+[2023-05-27T17:21:05.337+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cria_diretorios_projeto.cria_diretorios_projeto manual__2023-05-27T17:19:22.205339+00:00 [queued]>
+[2023-05-27T17:21:05.345+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cria_diretorios_projeto.cria_diretorios_projeto manual__2023-05-27T17:19:22.205339+00:00 [queued]>
+[2023-05-27T17:21:05.345+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:21:05.346+0000] {taskinstance.py:1280} INFO - Starting attempt 3 of 4
+[2023-05-27T17:21:05.346+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:21:05.361+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): cria_diretorios_projeto> on 2023-05-27 17:19:22.205339+00:00
+[2023-05-27T17:21:05.369+0000] {standard_task_runner.py:55} INFO - Started process 493 to run task
+[2023-05-27T17:21:05.372+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cria_diretorios_projeto', 'cria_diretorios_projeto', 'manual__2023-05-27T17:19:22.205339+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/cria_diretorios_projeto.py', '--cfg-path', '/tmp/tmpwnra5_1f']
+[2023-05-27T17:21:05.374+0000] {standard_task_runner.py:83} INFO - Job 151: Subtask cria_diretorios_projeto
+[2023-05-27T17:21:05.431+0000] {task_command.py:388} INFO - Running <TaskInstance: cria_diretorios_projeto.cria_diretorios_projeto manual__2023-05-27T17:19:22.205339+00:00 [running]> on host 39ba68738ba0
+[2023-05-27T17:21:05.500+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cria_diretorios_projeto
+AIRFLOW_CTX_TASK_ID=cria_diretorios_projeto
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T17:19:22.205339+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T17:19:22.205339+00:00
+[2023-05-27T17:21:05.513+0000] {logging_mixin.py:137} INFO - Diretório engineer criado com sucesso!
+[2023-05-27T17:21:05.513+0000] {logging_mixin.py:137} INFO - Diretório raw criado com sucesso!
+[2023-05-27T17:21:05.513+0000] {logging_mixin.py:137} INFO - Diretório refined criado com sucesso!
+[2023-05-27T17:21:05.514+0000] {logging_mixin.py:137} INFO - Diretório transient criado com sucesso!
+[2023-05-27T17:21:05.514+0000] {logging_mixin.py:137} INFO - Diretório trusted criado com sucesso!
+[2023-05-27T17:21:05.515+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-05-27T17:21:05.528+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=cria_diretorios_projeto, task_id=cria_diretorios_projeto, execution_date=20230527T171922, start_date=20230527T172105, end_date=20230527T172105
+[2023-05-27T17:21:05.584+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-05-27T17:21:05.602+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

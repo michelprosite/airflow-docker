@@ -1,0 +1,33 @@
+[2023-05-28T00:23:40.648+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.verifica_arquivo_task manual__2023-05-28T00:12:43.009160+00:00 [queued]>
+[2023-05-28T00:23:40.661+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.verifica_arquivo_task manual__2023-05-28T00:12:43.009160+00:00 [queued]>
+[2023-05-28T00:23:40.661+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28T00:23:40.662+0000] {taskinstance.py:1280} INFO - Starting attempt 9 of 10
+[2023-05-28T00:23:40.662+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28T00:23:40.689+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): verifica_arquivo_task> on 2023-05-28 00:12:43.009160+00:00
+[2023-05-28T00:23:40.697+0000] {standard_task_runner.py:55} INFO - Started process 780 to run task
+[2023-05-28T00:23:40.700+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'captura_dados', 'verifica_arquivo_task', 'manual__2023-05-28T00:12:43.009160+00:00', '--job-id', '340', '--raw', '--subdir', 'DAGS_FOLDER/captura_dados.py', '--cfg-path', '/tmp/tmp5f4r1s6f']
+[2023-05-28T00:23:40.701+0000] {standard_task_runner.py:83} INFO - Job 340: Subtask verifica_arquivo_task
+[2023-05-28T00:23:40.792+0000] {task_command.py:388} INFO - Running <TaskInstance: captura_dados.verifica_arquivo_task manual__2023-05-28T00:12:43.009160+00:00 [running]> on host 185349a2ec48
+[2023-05-28T00:23:40.900+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=captura_dados
+AIRFLOW_CTX_TASK_ID=verifica_arquivo_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-28T00:12:43.009160+00:00
+AIRFLOW_CTX_TRY_NUMBER=9
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-28T00:12:43.009160+00:00
+[2023-05-28T00:23:40.901+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/captura_dados.py", line 12, in verifica_arquivo
+    verifica_arquivos = [os.path.splitext(arquivo)[0] for arquivo in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, arquivo))]
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/transient/olist_customers_dataset.csv'
+[2023-05-28T00:23:40.915+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=captura_dados, task_id=verifica_arquivo_task, execution_date=20230528T001243, start_date=20230528T002340, end_date=20230528T002340
+[2023-05-28T00:23:40.931+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 340 for task verifica_arquivo_task ([Errno 2] No such file or directory: '/opt/airflow/data/transient/olist_customers_dataset.csv'; 780)
+[2023-05-28T00:23:40.953+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-28T00:23:41.002+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

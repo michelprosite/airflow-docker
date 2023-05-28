@@ -1,0 +1,33 @@
+[2023-05-27T17:59:33.828+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [queued]>
+[2023-05-27T17:59:33.852+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [queued]>
+[2023-05-27T17:59:33.852+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:59:33.852+0000] {taskinstance.py:1280} INFO - Starting attempt 10 of 11
+[2023-05-27T17:59:33.853+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:59:33.888+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): captura_dados> on 2023-05-27 17:36:14.242333+00:00
+[2023-05-27T17:59:33.902+0000] {standard_task_runner.py:55} INFO - Started process 1439 to run task
+[2023-05-27T17:59:33.906+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'captura_dados', 'captura_dados', 'manual__2023-05-27T17:36:14.242333+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/captura_dados.py', '--cfg-path', '/tmp/tmpkylubg6i']
+[2023-05-27T17:59:33.907+0000] {standard_task_runner.py:83} INFO - Job 163: Subtask captura_dados
+[2023-05-27T17:59:34.104+0000] {task_command.py:388} INFO - Running <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [running]> on host df5a7ad10ac6
+[2023-05-27T17:59:34.254+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=captura_dados
+AIRFLOW_CTX_TASK_ID=captura_dados
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T17:36:14.242333+00:00
+AIRFLOW_CTX_TRY_NUMBER=10
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T17:36:14.242333+00:00
+[2023-05-27T17:59:34.573+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/captura_dados.py", line 31, in captura_dados
+    csrf_token = r.cookies.get_dict()['csrftoken']
+KeyError: 'csrftoken'
+[2023-05-27T17:59:34.591+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=captura_dados, task_id=captura_dados, execution_date=20230527T173614, start_date=20230527T175933, end_date=20230527T175934
+[2023-05-27T17:59:34.625+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 163 for task captura_dados ('csrftoken'; 1439)
+[2023-05-27T17:59:34.654+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-27T17:59:34.687+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

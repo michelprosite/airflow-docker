@@ -1,0 +1,336 @@
+[2023-05-27T16:26:27.476+0000] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:26:27.477+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:26:27.478+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:26:27.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:26:27.509+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:26:27.631+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:26:27.630+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:26:27.680+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:26:27.680+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:26:27.713+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.241 seconds
+[2023-05-27T16:27:20.158+0000] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:27:20.175+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:27:20.176+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:27:20.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:27:20.251+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:27:20.381+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:27:20.380+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:27:20.453+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:27:20.453+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:27:20.813+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.667 seconds
+[2023-05-27T16:27:51.266+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:27:51.267+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:27:51.268+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:27:51.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:27:51.301+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:27:51.347+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:27:51.347+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:27:51.384+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:27:51.384+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:27:51.416+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.157 seconds
+[2023-05-27T16:28:22.052+0000] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:28:22.053+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:28:22.054+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:28:22.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:28:22.079+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:28:22.113+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:28:22.113+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:28:22.155+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:28:22.155+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:28:22.174+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.126 seconds
+[2023-05-27T16:28:52.963+0000] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:28:52.964+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:28:52.965+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:28:52.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:28:52.984+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:28:53.007+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:28:53.007+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:28:53.035+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:28:53.035+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:28:53.055+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.096 seconds
+[2023-05-27T16:29:24.023+0000] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:29:24.024+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:29:24.024+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:29:24.024+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:29:24.039+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:29:24.063+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:29:24.062+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:29:24.089+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:29:24.088+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:29:24.108+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.088 seconds
+[2023-05-27T16:29:54.818+0000] {processor.py:153} INFO - Started process (PID=268) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:29:54.819+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:29:54.820+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:29:54.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:29:54.841+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:29:54.865+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:29:54.865+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:29:54.910+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:29:54.910+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T14:30:00+00:00, run_after=2023-05-27T15:30:00+00:00
+[2023-05-27T16:29:54.934+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.120 seconds
+[2023-05-27T16:30:25.718+0000] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:30:25.719+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:30:25.720+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:30:25.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:30:25.743+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:30:25.776+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:30:25.776+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:30:25.818+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:30:25.818+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:30:25.837+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.122 seconds
+[2023-05-27T16:30:56.855+0000] {processor.py:153} INFO - Started process (PID=345) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:30:56.856+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:30:56.857+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:30:56.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:30:56.902+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:30:56.944+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:30:56.944+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:30:56.985+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:30:56.985+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:30:57.009+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.159 seconds
+[2023-05-27T16:31:27.703+0000] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:31:27.704+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:31:27.705+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:31:27.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:31:27.722+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:31:27.750+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:31:27.747+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:31:27.788+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:31:27.788+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:31:27.817+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.118 seconds
+[2023-05-27T16:31:58.155+0000] {processor.py:153} INFO - Started process (PID=422) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:31:58.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:31:58.156+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:31:58.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:31:58.172+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:31:58.196+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:31:58.196+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:31:58.225+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:31:58.224+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:31:58.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.093 seconds
+[2023-05-27T16:32:28.683+0000] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:32:28.685+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:32:28.687+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:32:28.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:32:28.725+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:32:28.779+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:32:28.779+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:32:28.842+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:32:28.842+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:32:28.881+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.202 seconds
+[2023-05-27T16:32:58.993+0000] {processor.py:153} INFO - Started process (PID=496) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:32:58.994+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:32:58.994+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:32:58.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:32:59.013+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:32:59.037+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:32:59.037+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:32:59.063+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:32:59.063+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:32:59.083+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.093 seconds
+[2023-05-27T16:33:30.000+0000] {processor.py:153} INFO - Started process (PID=527) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:33:30.001+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:33:30.002+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:33:30.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:33:30.019+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:33:30.047+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:33:30.047+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:33:30.075+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:33:30.074+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:33:30.098+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.100 seconds
+[2023-05-27T16:34:00.459+0000] {processor.py:153} INFO - Started process (PID=571) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:34:00.460+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:34:00.461+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:34:00.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:34:00.484+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:34:00.517+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:34:00.517+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:34:00.559+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:34:00.559+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:34:00.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.128 seconds
+[2023-05-27T16:34:30.984+0000] {processor.py:153} INFO - Started process (PID=603) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:34:30.985+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:34:30.985+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:34:30.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:34:31.000+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:34:31.026+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:34:31.026+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:34:31.051+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:34:31.051+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:34:31.070+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.089 seconds
+[2023-05-27T16:35:01.507+0000] {processor.py:153} INFO - Started process (PID=644) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:35:01.508+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:35:01.508+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:35:01.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:35:01.524+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:35:01.554+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:35:01.554+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:35:01.594+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:35:01.594+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:35:01.617+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.113 seconds
+[2023-05-27T16:35:32.466+0000] {processor.py:153} INFO - Started process (PID=679) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:35:32.467+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:35:32.468+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:35:32.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:35:32.482+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:35:32.504+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:35:32.504+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:35:32.531+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:35:32.530+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:35:32.548+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.085 seconds
+[2023-05-27T16:36:03.418+0000] {processor.py:153} INFO - Started process (PID=721) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:36:03.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:36:03.420+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:36:03.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:36:03.444+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:36:03.490+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:36:03.489+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:36:03.567+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:36:03.567+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:36:03.591+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.177 seconds
+[2023-05-27T16:36:34.453+0000] {processor.py:153} INFO - Started process (PID=756) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:36:34.454+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:36:34.455+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:36:34.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:36:34.474+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:36:34.506+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:36:34.506+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:36:34.544+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:36:34.544+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:36:34.579+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.132 seconds
+[2023-05-27T16:37:05.431+0000] {processor.py:153} INFO - Started process (PID=796) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:37:05.432+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:37:05.433+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:37:05.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:37:05.461+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:37:05.494+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:37:05.494+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:37:05.531+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:37:05.531+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:37:05.559+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.133 seconds
+[2023-05-27T16:37:36.459+0000] {processor.py:153} INFO - Started process (PID=834) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:37:36.460+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:37:36.461+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:37:36.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:37:36.480+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:37:36.531+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:37:36.531+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:37:36.591+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:37:36.590+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:37:36.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.170 seconds
+[2023-05-27T16:38:06.972+0000] {processor.py:153} INFO - Started process (PID=875) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:38:06.973+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:38:06.974+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:38:06.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:38:06.998+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:38:07.029+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:38:07.029+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:38:07.070+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:38:07.069+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:38:07.088+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.119 seconds
+[2023-05-27T16:38:37.932+0000] {processor.py:153} INFO - Started process (PID=912) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:38:37.933+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:38:37.934+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:38:37.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:38:37.950+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:38:37.989+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:38:37.989+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:38:38.046+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:38:38.046+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:38:38.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.145 seconds
+[2023-05-27T16:39:08.123+0000] {processor.py:153} INFO - Started process (PID=953) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:39:08.124+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:39:08.124+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:39:08.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:39:08.147+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:39:08.181+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:39:08.180+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:39:08.224+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:39:08.224+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:39:08.248+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.129 seconds
+[2023-05-27T16:39:39.340+0000] {processor.py:153} INFO - Started process (PID=988) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:39:39.341+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:39:39.341+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:39:39.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:39:39.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:39:39.387+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:39:39.387+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:39:39.451+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:39:39.450+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:39:39.481+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.144 seconds
+[2023-05-27T16:40:10.628+0000] {processor.py:153} INFO - Started process (PID=1020) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:40:10.634+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:40:10.635+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:40:10.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:40:10.689+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:40:10.766+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:40:10.766+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:40:10.909+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:40:10.908+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:40:11.008+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.391 seconds
+[2023-05-27T16:40:41.165+0000] {processor.py:153} INFO - Started process (PID=1059) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:40:41.166+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:40:41.169+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:40:41.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:40:41.198+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:40:41.234+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:40:41.233+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:40:41.276+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:40:41.275+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:40:41.300+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.139 seconds
+[2023-05-27T16:41:12.044+0000] {processor.py:153} INFO - Started process (PID=1095) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:41:12.047+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:41:12.048+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:41:12.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:41:12.072+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:41:12.106+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:41:12.106+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:41:12.152+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:41:12.152+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:41:12.186+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.145 seconds
+[2023-05-27T16:41:57.487+0000] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:42:07.084+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:42:07.086+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:42:07.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:42:07.376+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:42:07.482+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:42:07.481+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:42:07.606+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:42:07.605+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:42:07.693+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 10.209 seconds
+[2023-05-27T16:42:38.472+0000] {processor.py:153} INFO - Started process (PID=1171) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:42:38.473+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:42:38.486+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:42:38.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:42:38.553+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:42:38.630+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:42:38.630+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:42:38.726+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:42:38.725+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:42:38.775+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.320 seconds
+[2023-05-27T16:43:09.466+0000] {processor.py:153} INFO - Started process (PID=1202) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:43:09.466+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:43:09.467+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:43:09.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:43:09.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:43:09.522+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:43:09.522+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:43:09.562+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:43:09.562+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:43:09.585+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.124 seconds
+[2023-05-27T16:43:39.851+0000] {processor.py:153} INFO - Started process (PID=1234) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:43:39.852+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:43:39.854+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:43:39.854+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:43:39.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:43:39.925+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:43:39.925+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:43:40.054+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:43:40.054+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:43:40.112+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.266 seconds
+[2023-05-27T16:44:10.207+0000] {processor.py:153} INFO - Started process (PID=1266) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:44:10.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:44:10.209+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:44:10.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:44:10.239+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:44:10.285+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:44:10.285+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:44:10.337+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:44:10.337+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:44:10.369+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.168 seconds
+[2023-05-27T16:44:41.248+0000] {processor.py:153} INFO - Started process (PID=1305) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:44:41.291+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:44:41.293+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:44:41.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:44:41.529+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:44:41.900+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:44:41.900+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:44:42.103+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:44:42.103+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:44:42.287+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 1.068 seconds
+[2023-05-27T16:45:13.048+0000] {processor.py:153} INFO - Started process (PID=1330) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:45:13.077+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:45:13.078+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:45:13.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:45:15.064+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:45:19.078+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:45:19.062+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:45:19.175+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:45:19.175+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:45:19.282+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 6.246 seconds
+[2023-05-27T16:47:27.003+0000] {processor.py:153} INFO - Started process (PID=1355) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:47:27.015+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:47:27.016+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:47:27.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:47:27.233+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:47:27.484+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:47:27.483+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:47:27.669+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:47:27.668+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:47:27.792+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.794 seconds
+[2023-05-27T16:47:58.077+0000] {processor.py:153} INFO - Started process (PID=1380) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:47:58.078+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:47:58.078+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:47:58.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:47:58.096+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:47:58.122+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:47:58.122+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:47:58.151+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:47:58.151+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:47:58.194+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.120 seconds
+[2023-05-27T16:48:28.537+0000] {processor.py:153} INFO - Started process (PID=1416) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:48:28.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:48:28.555+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:48:28.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:48:28.684+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:48:28.774+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:48:28.774+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:48:28.857+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:48:28.856+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:48:28.942+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.409 seconds
+[2023-05-27T16:48:59.218+0000] {processor.py:153} INFO - Started process (PID=1452) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:48:59.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:48:59.219+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:48:59.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:48:59.236+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:48:59.261+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:48:59.260+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:48:59.290+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:48:59.290+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:48:59.400+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.185 seconds
+[2023-05-27T16:49:29.471+0000] {processor.py:153} INFO - Started process (PID=1484) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:49:29.471+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:49:29.472+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:49:29.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:49:29.489+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:49:29.513+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:49:29.513+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:49:29.539+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:49:29.538+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:49:29.617+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.150 seconds
+[2023-05-27T16:50:00.038+0000] {processor.py:153} INFO - Started process (PID=1522) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:50:00.084+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:50:00.085+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:50:00.085+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:50:00.132+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:50:00.238+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:50:00.237+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:50:00.291+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:50:00.291+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:50:00.580+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.549 seconds
+[2023-05-27T16:50:31.161+0000] {processor.py:153} INFO - Started process (PID=1559) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:50:31.162+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:50:31.163+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:50:31.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:50:31.187+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:50:31.222+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:50:31.221+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:50:31.374+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:50:31.374+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:50:31.948+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.792 seconds
+[2023-05-27T16:51:02.447+0000] {processor.py:153} INFO - Started process (PID=1592) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:51:02.587+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:51:02.588+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:51:02.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:51:02.605+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:51:02.629+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:51:02.628+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:51:02.655+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:51:02.655+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:51:03.506+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 1.063 seconds
+[2023-05-27T16:51:33.971+0000] {processor.py:153} INFO - Started process (PID=1623) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:51:33.972+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:51:33.973+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:51:33.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:51:33.989+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:51:34.020+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:51:34.019+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:51:34.062+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:51:34.062+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:51:34.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.121 seconds
+[2023-05-27T16:52:04.543+0000] {processor.py:153} INFO - Started process (PID=1668) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:52:04.544+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:52:04.544+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:52:04.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:52:04.569+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:52:04.604+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:52:04.603+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:52:04.638+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:52:04.637+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:52:04.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.284 seconds
+[2023-05-27T16:52:34.877+0000] {processor.py:153} INFO - Started process (PID=1700) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:52:34.878+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:52:34.878+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:52:34.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:52:34.894+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:52:34.920+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:52:34.920+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:52:34.947+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:52:34.947+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:52:34.991+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.117 seconds
+[2023-05-27T16:53:05.047+0000] {processor.py:153} INFO - Started process (PID=1738) to work on /opt/airflow/dags/outradag.py
+[2023-05-27T16:53:05.047+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/outradag.py for tasks to queue
+[2023-05-27T16:53:05.048+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:53:05.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/outradag.py
+[2023-05-27T16:53:05.065+0000] {processor.py:753} INFO - DAG(s) dict_keys(['outradag']) retrieved from /opt/airflow/dags/outradag.py
+[2023-05-27T16:53:05.096+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:53:05.095+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-27T16:53:05.123+0000] {logging_mixin.py:137} INFO - [2023-05-27T16:53:05.123+0000] {dag.py:3441} INFO - Setting next_dagrun for outradag to 2023-05-27T15:30:00+00:00, run_after=2023-05-27T16:30:00+00:00
+[2023-05-27T16:53:05.142+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/outradag.py took 0.099 seconds

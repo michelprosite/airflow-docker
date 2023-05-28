@@ -1,0 +1,25 @@
+[2023-05-27T17:40:08.617+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [queued]>
+[2023-05-27T17:40:08.628+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [queued]>
+[2023-05-27T17:40:08.628+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:40:08.629+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 3
+[2023-05-27T17:40:08.629+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:40:08.643+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): captura_dados> on 2023-05-27 17:36:14.242333+00:00
+[2023-05-27T17:40:08.649+0000] {standard_task_runner.py:55} INFO - Started process 320 to run task
+[2023-05-27T17:40:08.652+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'captura_dados', 'captura_dados', 'manual__2023-05-27T17:36:14.242333+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/captura_dados.py', '--cfg-path', '/tmp/tmpbn5zyi3t']
+[2023-05-27T17:40:08.654+0000] {standard_task_runner.py:83} INFO - Job 156: Subtask captura_dados
+[2023-05-27T17:40:08.729+0000] {task_command.py:388} INFO - Running <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [running]> on host df5a7ad10ac6
+[2023-05-27T17:40:08.799+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=captura_dados
+AIRFLOW_CTX_TASK_ID=captura_dados
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T17:36:14.242333+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T17:36:14.242333+00:00
+[2023-05-27T17:40:08.804+0000] {logging_mixin.py:137} INFO - Arquivos carregados e descompactados. Total de 0 arquivos.
+[2023-05-27T17:40:08.804+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-05-27T17:40:08.813+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=captura_dados, task_id=captura_dados, execution_date=20230527T173614, start_date=20230527T174008, end_date=20230527T174008
+[2023-05-27T17:40:08.864+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-05-27T17:40:08.881+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

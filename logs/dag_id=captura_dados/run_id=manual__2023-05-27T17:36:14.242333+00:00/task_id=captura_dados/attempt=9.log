@@ -1,0 +1,34 @@
+[2023-05-27T17:59:10.704+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [queued]>
+[2023-05-27T17:59:10.719+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [queued]>
+[2023-05-27T17:59:10.720+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:59:10.720+0000] {taskinstance.py:1280} INFO - Starting attempt 9 of 9
+[2023-05-27T17:59:10.720+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T17:59:10.738+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): captura_dados> on 2023-05-27 17:36:14.242333+00:00
+[2023-05-27T17:59:10.744+0000] {standard_task_runner.py:55} INFO - Started process 1416 to run task
+[2023-05-27T17:59:10.746+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'captura_dados', 'captura_dados', 'manual__2023-05-27T17:36:14.242333+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/captura_dados.py', '--cfg-path', '/tmp/tmp0ze8tbro']
+[2023-05-27T17:59:10.747+0000] {standard_task_runner.py:83} INFO - Job 162: Subtask captura_dados
+[2023-05-27T17:59:10.805+0000] {task_command.py:388} INFO - Running <TaskInstance: captura_dados.captura_dados manual__2023-05-27T17:36:14.242333+00:00 [running]> on host df5a7ad10ac6
+[2023-05-27T17:59:10.874+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=captura_dados
+AIRFLOW_CTX_TASK_ID=captura_dados
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T17:36:14.242333+00:00
+AIRFLOW_CTX_TRY_NUMBER=9
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T17:36:14.242333+00:00
+[2023-05-27T17:59:11.223+0000] {logging_mixin.py:137} INFO - {'CLIENT-TOKEN': 'eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpc3MiOiJrYWdnbGUiLCJhdWQiOiJjbGllbnQiLCJzdWIiOm51bGwsIm5idCI6IjIwMjMtMDUtMjdUMTc6NTk6MTEuMDc3NjQ4WiIsImlhdCI6IjIwMjMtMDUtMjdUMTc6NTk6MTEuMDc3NjQ4WiIsImp0aSI6ImJmYjE5OGUwLWE3OGUtNDUxYS05OGUwLWE5NzUzMWY0MTBiNiIsImV4cCI6IjIwMjMtMDYtMjdUMTc6NTk6MTEuMDc3NjQ4WiIsImFub24iOnRydWUsImZmIjpbIktlcm5lbHNEaXNhYmxlVW51c2VkQWNjZWxlcmF0b3JXYXJuaW5nIiwiS2VybmVsc0ZpcmViYXNlTG9uZ1BvbGxpbmciLCJDb21tdW5pdHlMb3dlckhlYWRlclNpemVzIiwiQWxsb3dGb3J1bUF0dGFjaG1lbnRzIiwiRm9yY2VOYXZGb290ZXJPbk1vYmlsZUFuZFRhYmxldCIsIlRwdU9uZVZtIiwiVHB1VHdvVm1EZXByZWNhdGVkIiwiRnJvbnRlbmRFcnJvclJlcG9ydGluZyIsIkRhdGFzZXRzTWFuYWdlZEZvY3VzT25PcGVuIiwiRG9pRGF0YXNldFRvbWJzdG9uZXMiLCJDaGFuZ2VEYXRhc2V0T3duZXJzaGlwVG9PcmciLCJLZXJuZWxFZGl0b3JIYW5kbGVNb3VudE9uY2UiLCJLZXJuZWxQaW5uaW5nIiwiUGFnZVZpc2liaWxpdHlBbmFseXRpY3NSZXBvcnRlciIsIk1hdVJlcG9ydCIsIk1vZGVsc0NhY2hlZFRhZ1NlcnZpY2VFbmFibGVkIiwiQ29tcGV0aXRpb25zUnVsZXNLbSIsIkRhdGFzZXRzU2hhcmVkV2l0aFRoZW1TZWFyY2giXSwiZmZkIjp7Iktlcm5lbEVkaXRvckF1dG9zYXZlVGhyb3R0bGVNcyI6IjMwMDAwIiwiRnJvbnRlbmRFcnJvclJlcG9ydGluZ1NhbXBsZVJhdGUiOiIwIiwiRW1lcmdlbmN5QWxlcnRCYW5uZXIiOiJ7fSIsIkNsaWVudFJwY1JhdGVMaW1pdCI6IjQwIiwiRmVhdHVyZWRDb21tdW5pdHlDb21wZXRpdGlvbnMiOiIzNTMyNSwzNzE3NCwzMzU3OSwzNzg5OCwzNzM1NCwzNzk1OSwzODg2MCIsIkFkZEZlYXR1cmVGbGFnc1RvUGFnZUxvYWRUYWciOiJkaXNhYmxlZCIsIkNvbXBldGl0aW9uTWV0cmljVGltZW91dE1pbnV0ZXMiOiIzMCJ9LCJwaWQiOiJrYWdnbGUtMTYxNjA3Iiwic3ZjIjoid2ViLWZlIiwic2RhayI6IkFJemFTeUE0ZU5xVWRSUnNrSnNDWldWei1xTDY1NVhhNUpFTXJlRSIsImJsZCI6ImFjMDgyZmMwZWYwN2VkY2E2YmMzZDc2OGY3M2MwMjJkMDMzMmE2YmMifQ.', 'CSRF-TOKEN': 'CfDJ8CUWE9OEI51CrAPaRCNnC_e9ET_VpVEQYzbwUqB-junb2HySfh-hYZZFleHCuaCx-xBMU_i-dhXhgQhKtAGieRfqN1MeIoGLAJmLnYE92g', 'GCLB': 'CIXgjd7FpLn7GQ', 'XSRF-TOKEN': 'CfDJ8CUWE9OEI51CrAPaRCNnC_ecoIHe6G88o03hOB8VYDvwVvHC_jbt6MvCrl48ttWfvayzU1pqVTeoKvAQxgz6Z8plTeJl4-8w7ob9qsZljbO78A', 'ka_sessionid': '6fbc8b2ace70747dcb7ea1ec57e0f9e7'}
+[2023-05-27T17:59:12.041+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/captura_dados.py", line 57, in captura_dados
+    with open(zip_file_path, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/transient/brazilian-ecommerce.zip'
+[2023-05-27T17:59:12.049+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=captura_dados, task_id=captura_dados, execution_date=20230527T173614, start_date=20230527T175910, end_date=20230527T175912
+[2023-05-27T17:59:12.065+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 162 for task captura_dados ([Errno 2] No such file or directory: '/opt/airflow/transient/brazilian-ecommerce.zip'; 1416)
+[2023-05-27T17:59:12.087+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-27T17:59:12.132+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2023-05-27T19:56:43.572+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cria_diretorios_projeto.permissoes_diretorios manual__2023-05-27T19:56:29.396765+00:00 [queued]>
+[2023-05-27T19:56:43.581+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: cria_diretorios_projeto.permissoes_diretorios manual__2023-05-27T19:56:29.396765+00:00 [queued]>
+[2023-05-27T19:56:43.581+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T19:56:43.581+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 2
+[2023-05-27T19:56:43.581+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-27T19:56:43.598+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): permissoes_diretorios> on 2023-05-27 19:56:29.396765+00:00
+[2023-05-27T19:56:43.604+0000] {standard_task_runner.py:55} INFO - Started process 2668 to run task
+[2023-05-27T19:56:43.607+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'cria_diretorios_projeto', 'permissoes_diretorios', 'manual__2023-05-27T19:56:29.396765+00:00', '--job-id', '259', '--raw', '--subdir', 'DAGS_FOLDER/cria_diretorios_projeto.py', '--cfg-path', '/tmp/tmpr86pg2hh']
+[2023-05-27T19:56:43.609+0000] {standard_task_runner.py:83} INFO - Job 259: Subtask permissoes_diretorios
+[2023-05-27T19:56:43.672+0000] {task_command.py:388} INFO - Running <TaskInstance: cria_diretorios_projeto.permissoes_diretorios manual__2023-05-27T19:56:29.396765+00:00 [running]> on host 36658c0564dd
+[2023-05-27T19:56:43.745+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cria_diretorios_projeto
+AIRFLOW_CTX_TASK_ID=permissoes_diretorios
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-27T19:56:29.396765+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-27T19:56:29.396765+00:00
+[2023-05-27T19:56:43.747+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-27T19:56:43.747+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "\n            export PATH_FOLDER='/dags'\n            cd $PATH_FOLDER/\n            chmod -R 777 *\n        "]
+[2023-05-27T19:56:43.761+0000] {subprocess.py:86} INFO - Output:
+[2023-05-27T19:56:43.762+0000] {subprocess.py:93} INFO - /bin/bash: line 3: cd: /dags/: No such file or directory
+[2023-05-27T19:56:43.764+0000] {subprocess.py:93} INFO - chmod: cannot access '*': No such file or directory
+[2023-05-27T19:56:43.764+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-05-27T19:56:43.775+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-05-27T19:56:43.779+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=cria_diretorios_projeto, task_id=permissoes_diretorios, execution_date=20230527T195629, start_date=20230527T195643, end_date=20230527T195643
+[2023-05-27T19:56:43.793+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 259 for task permissoes_diretorios (Bash command failed. The command returned a non-zero exit code 1.; 2668)
+[2023-05-27T19:56:43.819+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-27T19:56:43.836+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
