@@ -1,0 +1,56 @@
+[2023-05-31T02:54:35.258+0000] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:54:35.270+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:54:35.271+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:54:35.271+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:54:37.311+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:54:37.458+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:54:37.457+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:54:37.495+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:54:37.495+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:54:37.540+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 2.286 seconds
+[2023-05-31T02:55:08.484+0000] {processor.py:153} INFO - Started process (PID=78) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:55:08.494+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:55:08.495+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:55:08.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:55:09.255+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:55:09.285+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:55:09.284+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:55:09.323+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:55:09.323+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:55:09.357+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 0.888 seconds
+[2023-05-31T02:55:39.640+0000] {processor.py:153} INFO - Started process (PID=117) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:55:39.658+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:55:39.660+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:55:39.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:55:42.146+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:55:42.318+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:55:42.318+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:55:42.390+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:55:42.390+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:55:42.437+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 2.823 seconds
+[2023-05-31T02:56:12.891+0000] {processor.py:153} INFO - Started process (PID=158) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:56:12.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:56:12.893+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:56:12.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:56:13.278+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:56:13.299+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:56:13.299+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:56:13.332+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:56:13.332+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:56:13.381+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 0.495 seconds
+[2023-05-31T02:56:44.302+0000] {processor.py:153} INFO - Started process (PID=190) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:56:44.303+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:56:44.303+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:56:44.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:56:44.691+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:56:44.767+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:56:44.766+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:56:44.790+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:56:44.789+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:56:44.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 0.517 seconds
+[2023-05-31T02:57:15.812+0000] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:57:15.842+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:57:15.843+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:57:15.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:57:16.487+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:57:16.518+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:57:16.517+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:57:16.559+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:57:16.559+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:57:16.592+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 0.804 seconds
+[2023-05-31T02:58:55.645+0000] {processor.py:153} INFO - Started process (PID=47) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:58:55.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:58:55.664+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:58:55.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:58:57.541+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:58:57.911+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:58:57.910+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:58:58.419+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:58:58.419+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:58:58.473+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 2.832 seconds
+[2023-05-31T02:59:29.290+0000] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:59:29.291+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/data/captura_dados.py for tasks to queue
+[2023-05-31T02:59:29.292+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:59:29.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:59:29.912+0000] {processor.py:753} INFO - DAG(s) dict_keys(['captura_dados']) retrieved from /opt/airflow/dags/data/captura_dados.py
+[2023-05-31T02:59:29.953+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:59:29.952+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T02:59:29.998+0000] {logging_mixin.py:137} INFO - [2023-05-31T02:59:29.997+0000] {dag.py:3441} INFO - Setting next_dagrun for captura_dados to None, run_after=None
+[2023-05-31T02:59:30.028+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/data/captura_dados.py took 0.743 seconds

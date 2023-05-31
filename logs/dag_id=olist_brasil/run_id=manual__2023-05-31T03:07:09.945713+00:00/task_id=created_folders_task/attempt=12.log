@@ -1,0 +1,33 @@
+[2023-05-31T03:15:05.489+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: olist_brasil.created_folders_task manual__2023-05-31T03:07:09.945713+00:00 [queued]>
+[2023-05-31T03:15:05.502+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: olist_brasil.created_folders_task manual__2023-05-31T03:07:09.945713+00:00 [queued]>
+[2023-05-31T03:15:05.502+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-31T03:15:05.502+0000] {taskinstance.py:1280} INFO - Starting attempt 12 of 13
+[2023-05-31T03:15:05.502+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-31T03:15:05.525+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): created_folders_task> on 2023-05-31 03:07:09.945713+00:00
+[2023-05-31T03:15:05.531+0000] {standard_task_runner.py:55} INFO - Started process 829 to run task
+[2023-05-31T03:15:05.556+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'olist_brasil', 'created_folders_task', 'manual__2023-05-31T03:07:09.945713+00:00', '--job-id', '139', '--raw', '--subdir', 'DAGS_FOLDER/olist_brasil.py', '--cfg-path', '/tmp/tmpdbre9t4x']
+[2023-05-31T03:15:05.558+0000] {standard_task_runner.py:83} INFO - Job 139: Subtask created_folders_task
+[2023-05-31T03:15:05.636+0000] {task_command.py:388} INFO - Running <TaskInstance: olist_brasil.created_folders_task manual__2023-05-31T03:07:09.945713+00:00 [running]> on host 402c803b83a1
+[2023-05-31T03:15:05.734+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=olist_brasil
+AIRFLOW_CTX_TASK_ID=created_folders_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-31T03:07:09.945713+00:00
+AIRFLOW_CTX_TRY_NUMBER=12
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-31T03:07:09.945713+00:00
+[2023-05-31T03:15:05.735+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/olist_brasil.py", line 14, in created_folders
+    os.chmod(data_dir, 0o777)
+PermissionError: [Errno 1] Operation not permitted: '/opt/airflow/data'
+[2023-05-31T03:15:05.744+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=olist_brasil, task_id=created_folders_task, execution_date=20230531T030709, start_date=20230531T031505, end_date=20230531T031505
+[2023-05-31T03:15:05.760+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 139 for task created_folders_task ([Errno 1] Operation not permitted: '/opt/airflow/data'; 829)
+[2023-05-31T03:15:05.787+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-05-31T03:15:05.831+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

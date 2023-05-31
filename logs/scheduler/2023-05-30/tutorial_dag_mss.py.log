@@ -1,0 +1,95 @@
+[2023-05-30T14:52:13.364+0000] {processor.py:153} INFO - Started process (PID=44) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:52:13.365+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:52:13.379+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:13.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:52:15.405+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:52:15.976+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:15.975+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_dag_mss
+[2023-05-30T14:52:15.998+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:15.998+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_dag_mss
+[2023-05-30T14:52:16.021+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:16.021+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_dag_mss
+[2023-05-30T14:52:16.022+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:16.021+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:52:16.042+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:16.041+0000] {dag.py:2711} INFO - Creating ORM DAG for tutorial_dag_mss
+[2023-05-30T14:52:16.064+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:16.064+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:52:16.097+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 2.762 seconds
+[2023-05-30T14:52:46.157+0000] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:52:46.157+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:52:46.158+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:46.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:52:46.493+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:52:46.513+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:46.513+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:52:46.542+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:46.542+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:52:46.559+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.406 seconds
+[2023-05-30T14:53:16.826+0000] {processor.py:153} INFO - Started process (PID=112) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:53:16.839+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:53:16.840+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:16.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:53:17.868+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:53:17.895+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:17.895+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:53:17.934+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:17.934+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:53:17.959+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 1.138 seconds
+[2023-05-30T14:53:48.143+0000] {processor.py:153} INFO - Started process (PID=142) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:53:48.144+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:53:48.144+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:48.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:53:48.535+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:53:48.556+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:48.555+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:53:48.581+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:48.581+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:53:48.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.459 seconds
+[2023-05-30T14:54:18.637+0000] {processor.py:153} INFO - Started process (PID=168) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:54:18.639+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:54:18.645+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:18.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:54:19.222+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:54:19.427+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:19.427+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:54:19.460+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:19.460+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:54:19.492+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.861 seconds
+[2023-05-30T14:54:49.601+0000] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:54:49.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:54:49.602+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:49.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:54:49.983+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:54:50.009+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:50.008+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:54:50.032+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:50.032+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:54:50.049+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.452 seconds
+[2023-05-30T14:55:20.280+0000] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:55:20.282+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:55:20.284+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:20.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:55:20.984+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:55:21.030+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:21.029+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:55:21.098+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:21.097+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:55:21.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.877 seconds
+[2023-05-30T14:55:51.474+0000] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:55:51.477+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:55:51.478+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:51.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:55:52.014+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:55:52.038+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:52.037+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:55:52.086+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:52.086+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:55:52.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.650 seconds
+[2023-05-30T14:56:22.387+0000] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:56:22.389+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:56:22.391+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:22.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:56:22.771+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:56:22.792+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:22.791+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:56:22.815+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:22.815+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:56:22.832+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.454 seconds
+[2023-05-30T14:56:53.022+0000] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:56:53.023+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:56:53.023+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:53.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:56:53.423+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:56:53.449+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:53.448+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:56:53.487+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:53.487+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:56:53.511+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.492 seconds
+[2023-05-30T14:57:24.238+0000] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:57:24.241+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:57:24.243+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:24.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:57:24.619+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:57:24.643+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:24.642+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:57:24.669+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:24.669+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:57:24.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.460 seconds
+[2023-05-30T14:57:54.866+0000] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:57:54.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:57:54.868+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:54.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:57:55.231+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:57:55.252+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:55.251+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:57:55.279+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:55.279+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:57:55.297+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.437 seconds
+[2023-05-30T14:58:25.449+0000] {processor.py:153} INFO - Started process (PID=440) to work on /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:58:25.449+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/tutorial_dag_mss.py for tasks to queue
+[2023-05-30T14:58:25.450+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:58:25.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:58:26.010+0000] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag_mss']) retrieved from /opt/airflow/dags/tutorial_dag_mss.py
+[2023-05-30T14:58:26.031+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:58:26.031+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-30T14:58:26.058+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:58:26.057+0000] {dag.py:3441} INFO - Setting next_dagrun for tutorial_dag_mss to 2023-05-30T13:30:00+00:00, run_after=2023-05-30T14:30:00+00:00
+[2023-05-30T14:58:26.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/tutorial_dag_mss.py took 0.636 seconds

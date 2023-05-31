@@ -1,0 +1,249 @@
+[2023-05-31T03:04:50.368+0000] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:04:50.369+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:04:50.370+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:04:50.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:04:51.042+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:04:51.038+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:04:51.044+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:04:51.084+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.720 seconds
+[2023-05-31T03:04:55.094+0000] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:04:55.096+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:04:55.098+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:04:55.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:04:55.479+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:04:55.478+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:04:55.480+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:04:55.504+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.420 seconds
+[2023-05-31T03:05:25.760+0000] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:05:25.761+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:05:25.761+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:05:25.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:05:26.203+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:05:26.202+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:05:26.203+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:05:26.219+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.463 seconds
+[2023-05-31T03:05:37.319+0000] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:05:37.320+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:05:37.320+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:05:37.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:05:37.837+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:05:37.834+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:05:37.838+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:05:37.864+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.549 seconds
+[2023-05-31T03:06:08.076+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:08.077+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:06:08.077+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:08.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:08.565+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:08.564+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:06:08.566+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:08.585+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.513 seconds
+[2023-05-31T03:06:15.339+0000] {processor.py:153} INFO - Started process (PID=275) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:15.340+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:06:15.341+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:15.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:15.794+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:15.792+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:06:15.795+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:15.828+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.493 seconds
+[2023-05-31T03:06:46.014+0000] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:46.015+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:06:46.016+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:46.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:46.665+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:46.662+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/olist_brasil.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/olist_brasil.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-31T03:06:46.666+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:46.701+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.692 seconds
+[2023-05-31T03:06:57.116+0000] {processor.py:153} INFO - Started process (PID=316) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:57.118+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:06:57.121+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:57.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:57.940+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:06:58.404+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:58.403+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:olist_brasil
+[2023-05-31T03:06:58.439+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:58.438+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:olist_brasil
+[2023-05-31T03:06:58.459+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:58.459+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:olist_brasil
+[2023-05-31T03:06:58.461+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:58.460+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:06:58.487+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:58.487+0000] {dag.py:2711} INFO - Creating ORM DAG for olist_brasil
+[2023-05-31T03:06:58.510+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:06:58.510+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:06:58.537+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 1.428 seconds
+[2023-05-31T03:07:28.788+0000] {processor.py:153} INFO - Started process (PID=355) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:07:28.791+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:07:28.796+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:07:28.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:07:29.356+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:07:29.390+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:07:29.389+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:07:29.437+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:07:29.437+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:07:29.466+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.688 seconds
+[2023-05-31T03:08:00.029+0000] {processor.py:153} INFO - Started process (PID=384) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:08:00.030+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:08:00.031+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:08:00.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:08:00.501+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:08:00.524+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:08:00.524+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:08:00.555+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:08:00.555+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:08:00.576+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.551 seconds
+[2023-05-31T03:08:30.770+0000] {processor.py:153} INFO - Started process (PID=413) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:08:30.771+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:08:30.772+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:08:30.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:08:31.319+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:08:31.349+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:08:31.349+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:08:31.386+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:08:31.386+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:08:31.412+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.651 seconds
+[2023-05-31T03:09:01.636+0000] {processor.py:153} INFO - Started process (PID=457) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:09:01.637+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:09:01.638+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:09:01.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:09:02.007+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:09:02.026+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:09:02.026+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:09:02.050+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:09:02.050+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:09:02.068+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.436 seconds
+[2023-05-31T03:09:32.263+0000] {processor.py:153} INFO - Started process (PID=488) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:09:32.264+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:09:32.264+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:09:32.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:09:32.605+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:09:32.625+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:09:32.625+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:09:32.648+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:09:32.648+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:09:32.666+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.408 seconds
+[2023-05-31T03:10:02.926+0000] {processor.py:153} INFO - Started process (PID=520) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:10:02.926+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:10:02.927+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:10:02.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:10:03.280+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:10:03.305+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:10:03.304+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:10:03.344+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:10:03.344+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:10:03.368+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.445 seconds
+[2023-05-31T03:10:33.583+0000] {processor.py:153} INFO - Started process (PID=564) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:10:33.584+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:10:33.586+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:10:33.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:10:34.134+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:10:34.196+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:10:34.195+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:10:34.232+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:10:34.232+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:10:34.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.680 seconds
+[2023-05-31T03:11:04.511+0000] {processor.py:153} INFO - Started process (PID=595) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:11:04.514+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:11:04.516+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:11:04.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:11:05.039+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:11:05.063+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:11:05.062+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:11:05.092+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:11:05.092+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:11:05.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.621 seconds
+[2023-05-31T03:11:32.073+0000] {processor.py:153} INFO - Started process (PID=626) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:11:32.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:11:32.078+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:11:32.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:11:32.704+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:11:32.732+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:11:32.732+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:11:32.757+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:11:32.757+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:11:32.789+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.727 seconds
+[2023-05-31T03:12:03.079+0000] {processor.py:153} INFO - Started process (PID=653) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:12:03.080+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:12:03.081+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:12:03.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:12:03.437+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:12:03.478+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:12:03.478+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:12:03.505+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:12:03.505+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:12:03.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.453 seconds
+[2023-05-31T03:12:33.771+0000] {processor.py:153} INFO - Started process (PID=693) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:12:33.773+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:12:33.774+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:12:33.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:12:34.134+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:12:34.157+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:12:34.157+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:12:34.179+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:12:34.178+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:12:34.196+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.433 seconds
+[2023-05-31T03:13:04.388+0000] {processor.py:153} INFO - Started process (PID=721) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:13:04.389+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:13:04.390+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:13:04.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:13:04.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:13:04.909+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:13:04.909+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:13:04.938+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:13:04.938+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:13:04.967+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.581 seconds
+[2023-05-31T03:13:35.198+0000] {processor.py:153} INFO - Started process (PID=758) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:13:35.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:13:35.200+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:13:35.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:13:35.561+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:13:35.579+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:13:35.579+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:13:35.601+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:13:35.600+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:13:35.617+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.422 seconds
+[2023-05-31T03:14:05.817+0000] {processor.py:153} INFO - Started process (PID=789) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:05.818+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:14:05.818+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:05.818+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:06.242+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:06.265+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:06.265+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:14:06.293+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:06.293+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:14:06.320+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.506 seconds
+[2023-05-31T03:14:12.150+0000] {processor.py:153} INFO - Started process (PID=791) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:12.151+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:14:12.153+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:12.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:12.614+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:12.638+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:12.638+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:14:12.666+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:12.666+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:14:12.691+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.549 seconds
+[2023-05-31T03:14:42.906+0000] {processor.py:153} INFO - Started process (PID=830) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:42.908+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:14:42.912+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:42.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:43.463+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:14:43.489+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:43.489+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:14:43.527+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:14:43.527+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:14:43.553+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.660 seconds
+[2023-05-31T03:15:13.776+0000] {processor.py:153} INFO - Started process (PID=863) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:13.777+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:15:13.777+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:13.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:14.260+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:14.283+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:14.283+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:15:14.312+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:14.312+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:15:14.332+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.560 seconds
+[2023-05-31T03:15:44.513+0000] {processor.py:153} INFO - Started process (PID=907) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:44.514+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:15:44.515+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:44.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:44.862+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:44.882+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:44.882+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:15:44.906+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:44.906+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:15:44.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.430 seconds
+[2023-05-31T03:15:51.009+0000] {processor.py:153} INFO - Started process (PID=909) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:51.010+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:15:51.012+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:51.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:51.614+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:15:51.643+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:51.642+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:15:51.723+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:15:51.722+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:15:51.757+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.754 seconds
+[2023-05-31T03:16:21.973+0000] {processor.py:153} INFO - Started process (PID=940) to work on /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:16:21.973+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/olist_brasil.py for tasks to queue
+[2023-05-31T03:16:21.974+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:16:21.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:16:22.325+0000] {processor.py:753} INFO - DAG(s) dict_keys(['olist_brasil']) retrieved from /opt/airflow/dags/olist_brasil.py
+[2023-05-31T03:16:22.349+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:16:22.348+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-31T03:16:22.383+0000] {logging_mixin.py:137} INFO - [2023-05-31T03:16:22.383+0000] {dag.py:3441} INFO - Setting next_dagrun for olist_brasil to None, run_after=None
+[2023-05-31T03:16:22.408+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/olist_brasil.py took 0.438 seconds

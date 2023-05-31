@@ -1,0 +1,185 @@
+[2023-05-30T14:52:13.356+0000] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:52:13.358+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:52:13.361+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:13.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:52:15.331+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:15.328+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:52:15.332+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:52:15.381+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 2.043 seconds
+[2023-05-30T14:52:45.624+0000] {processor.py:153} INFO - Started process (PID=72) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:52:45.626+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:52:45.627+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:45.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:52:46.109+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:52:46.108+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:52:46.109+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:52:46.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.509 seconds
+[2023-05-30T14:53:16.356+0000] {processor.py:153} INFO - Started process (PID=110) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:53:16.359+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:53:16.361+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:16.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:53:17.731+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:17.730+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:53:17.732+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:53:17.753+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 1.406 seconds
+[2023-05-30T14:53:47.974+0000] {processor.py:153} INFO - Started process (PID=140) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:53:47.975+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:53:47.976+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:47.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:53:48.333+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:53:48.332+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:53:48.334+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:53:48.351+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.381 seconds
+[2023-05-30T14:54:18.649+0000] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:54:18.650+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:54:18.651+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:18.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:54:19.081+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:19.078+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:54:19.082+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:54:19.115+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.474 seconds
+[2023-05-30T14:54:49.315+0000] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:54:49.316+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:54:49.317+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:49.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:54:49.550+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:54:49.548+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:54:49.550+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:54:49.568+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.256 seconds
+[2023-05-30T14:55:19.835+0000] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:55:19.838+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:55:19.841+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:19.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:55:20.589+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:20.587+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:55:20.590+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:55:20.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.801 seconds
+[2023-05-30T14:55:50.895+0000] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:55:50.896+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:55:50.897+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:50.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:55:51.658+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:55:51.657+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:55:51.659+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:55:51.685+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.810 seconds
+[2023-05-30T14:56:21.923+0000] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:56:21.926+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:56:21.929+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:21.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:56:22.293+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:22.292+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:56:22.293+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:56:22.311+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.399 seconds
+[2023-05-30T14:56:52.575+0000] {processor.py:153} INFO - Started process (PID=332) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:56:52.576+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:56:52.576+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:52.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:56:52.971+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:56:52.970+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:56:52.972+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:56:52.991+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.419 seconds
+[2023-05-30T14:57:23.199+0000] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:57:23.200+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:57:23.201+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:23.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:57:23.426+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:23.423+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:57:23.426+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:57:23.447+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.251 seconds
+[2023-05-30T14:57:53.640+0000] {processor.py:153} INFO - Started process (PID=400) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:57:53.641+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:57:53.643+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:53.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:57:54.060+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:57:54.058+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:57:54.060+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:57:54.200+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.567 seconds
+[2023-05-30T14:58:24.398+0000] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:58:24.399+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:58:24.399+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:58:24.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:58:24.944+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:58:24.942+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/captura_dados.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/captura_dados.py", line 7, in <module>
+    from kaggle.api.kaggle_api_extended import KaggleApi
+ModuleNotFoundError: No module named 'kaggle'
+[2023-05-30T14:58:24.944+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:58:24.973+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/captura_dados.py took 0.580 seconds
+[2023-05-30T14:58:55.246+0000] {processor.py:153} INFO - Started process (PID=466) to work on /opt/airflow/dags/captura_dados.py
+[2023-05-30T14:58:55.249+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/captura_dados.py for tasks to queue
+[2023-05-30T14:58:55.254+0000] {logging_mixin.py:137} INFO - [2023-05-30T14:58:55.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/captura_dados.py
